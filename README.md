@@ -8,7 +8,7 @@ Pré requisitos:
 ### Materiais utilizados
 
 * The Things UNO
-* Sensor ultrassônico [(hc-sr04)](https://www.filipeflop.com/blog/sensor-ultrassonico-hc-sr04-ao-arduino/)
+* Sensor ultrassônico - [HC-SR04](https://www.filipeflop.com/blog/sensor-ultrassonico-hc-sr04-ao-arduino/)
 * Display LCD 16×2
 * Potenciômetro 10kΩ
 * Sensor NTC - temperatura
@@ -21,7 +21,7 @@ Pré requisitos:
 O esquema abaixo mostra como as conexões para a execução do código [aqui]() foram feitas.
 * -- Lembrando que o esquemático mostra um **ARDUINO LEONARDO** mas está sendo utilizado um módulo **The Things UNO** --
 
-![esquemático]()
+![esquemático](https://github.com/mftutui/configuracoes-device-ttn/blob/master/device_v1.png)
 
 A montagem real do circuito ficou da seguinte maneira:
 
@@ -63,13 +63,13 @@ Pronto agora é só carregar o código e partir para o console da TTN.
 
 Seu código foi carregado para o *device* e a gora é a hora de testar a aplicação na TTN. Você pode observar as informações na aplicação clicando na barra ***Data***.
 
-![dados]()
+![dados](https://github.com/mftutui/configuracoes-device-ttn/blob/master/dados.png)
 
 O conjunto dos dados capturados pelo dispositivo é chamado de *payload*, ele aparece na figura acima, mas não está legível. Para compreender o que está no *payload* precisamos decodificar esses dados.
 
 No console da TTN, vá até a aplicação criada e clique na aba ***Payload Formats***, em *decocer* o *payload* pode ser tratado com **JSON**. Nesse caso os bits estão sendo separados um a um e retornam com os valores "traduzidos".
 
-```json
+```
 function Decoder(bytes, port) {
 
   var dist1 = bytes[0];
@@ -83,12 +83,12 @@ function Decoder(bytes, port) {
 }
 ```
 
-![payload1]()
+![payload1](https://github.com/mftutui/configuracoes-device-ttn/blob/master/payload1.png)
 
 Um teste conferindo a separação dos dados pode ser feio ao incluir informações no box **Payload**. Não esqueça de salvar as alterações em  *save payload functions*.
 
-![payload2]()
+![payload2](https://github.com/mftutui/configuracoes-device-ttn/blob/master/payload2.png)
 
 Pronto, agora as informações aparecerão decodificadas na aba **Data**
 
-![decode_data]()
+![decode_data](https://github.com/mftutui/configuracoes-device-ttn/blob/master/decode_data.png)
