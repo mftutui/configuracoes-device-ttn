@@ -25,7 +25,8 @@ O esquema abaixo mostra como as conexões para a execução do código [aqui]() 
 
 A montagem real do circuito ficou da seguinte maneira:
 
-![montagem]()
+![montagem1](https://github.com/mftutui/configuracoes-device-ttn/blob/master/montagem1.JPG)
+![montagem2](https://github.com/mftutui/configuracoes-device-ttn/blob/master/montagem2.JPG)
 
 Afim de minimizar o espaço ocupado pelo *device* foram usadas uma *protoshield* para Arduino e uma mini *protoboard*.
 
