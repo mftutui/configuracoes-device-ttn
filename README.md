@@ -7,7 +7,7 @@ Pré requisitos:
 
 ### Materiais utilizados
 
-* The Things UNO
+* [The TheThings UNO](https://www.thethingsnetwork.org/marketplace/product/the-things-uno)
 * Sensor ultrassônico - [HC-SR04](https://www.filipeflop.com/blog/sensor-ultrassonico-hc-sr04-ao-arduino/)
 * Display LCD 16×2
 * Potenciômetro 10kΩ
@@ -19,7 +19,7 @@ Pré requisitos:
 ## Prototipagem
 
 O esquema abaixo mostra como as conexões para a execução do código [aqui]() foram feitas.
-* -- Lembrando que o esquemático mostra um **ARDUINO LEONARDO** mas está sendo utilizado um módulo **The Things UNO** --
+* Lembrando que o esquemático mostra um **ARDUINO LEONARDO** mas está sendo utilizado um módulo **The Things UNO**
 
 ![esquemático](https://github.com/mftutui/configuracoes-device-ttn/blob/master/device_v1.png)
 
