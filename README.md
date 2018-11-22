@@ -2,8 +2,11 @@
 
 Guia de configuração de *End Device* LoRa na [TTN](https://www.thethingsnetwork.org/) utilizando o dispositivo [The TheThings UNO](https://www.thethingsnetwork.org/marketplace/product/the-things-uno)
 
+A aplicação desenvolvida consiste nas medições de temperatura, luminosidade e distância. 
+
 Pré requisitos:
 - Gateway Lora
+- Acesso a TTN
 
 ### Materiais utilizados
 
