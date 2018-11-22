@@ -21,7 +21,7 @@ Pré requisitos:
 
 ## Prototipagem
 
-O esquema abaixo mostra como as conexões para a execução do código [aqui]() foram feitas.
+O esquema abaixo mostra como as conexões para a execução do código [aqui](https://github.com/mftutui/configuracoes-device-ttn/blob/master/aplication.ino) foram feitas.
 * Lembrando que o esquemático mostra um **ARDUINO LEONARDO** mas está sendo utilizado um módulo **The Things UNO**
 
 ![esquemático](https://github.com/mftutui/configuracoes-device-ttn/blob/master/device_v1.png)
