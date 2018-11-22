@@ -61,6 +61,13 @@ As bibliotecas a serem incluídas na IDE são:
 
 Tendo em vista que a sua aplicação já está criada na TTN e que você possui os números de *appEui* e *appKey* não esqueça adiciona-los ao código!
 
+```c
+// Set your AppEUI and AppKey
+const char *appEui = "****************";
+const char *appKey = "********************************";
+
+```
+
 Pronto agora é só carregar o código e partir para o console da TTN.
 
 ## Visualizando o payload
