@@ -5,7 +5,7 @@ Guia de configuração de *End Device* LoRa na [TTN](https://www.thethingsnetwor
 A aplicação desenvolvida consiste nas medições de temperatura, luminosidade e distância. 
 
 Pré requisitos:
-- Gateway Lora
+- Gateway Lora :satellite:
 - Acesso a TTN
 
 ### Materiais utilizados
