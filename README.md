@@ -51,15 +51,15 @@ As bibliotecas a serem incluídas na IDE são:
 //Biblioteca para o sensor ultrassonico
 #include <Ultrasonic.h>
 
-//Biblioteca para o sensor de temperatura
-#include <Thermistor.h>
-
 //Biblioteca para usar o display LCD
 #include <LiquidCrystal.h>
 
 ```
+* A biblioteca **Ultrasonic** utilizada foi [essa](https://github.com/filipeflop/Ultrasonic)
 
 Tendo em vista que a sua aplicação já está criada na TTN e que você possui os números de *appEui* e *appKey* não esqueça adiciona-los ao código!
+
+Caso ela não esteja dê uma olhada [nesse](https://github.com/mftutui/ttn-first-steps) link. 
 
 ```c
 // Set your AppEUI and AppKey
