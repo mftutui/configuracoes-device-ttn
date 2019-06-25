@@ -4,7 +4,7 @@
 #include <Ultrasonic.h>
 
 //Biblioteca para o sensor de temperatura
-#include <Thermistor.h>
+//#include <Thermistor.h>
 
 //Carrega a biblioteca LiquidCrystal
 #include <LiquidCrystal.h>
@@ -21,8 +21,8 @@ LiquidCrystal lcd(10, 9, 8, 7, 6, 3);
 Ultrasonic ultrasonic(pino_trigger, pino_echo);
 
 // Set your AppEUI and AppKey
-const char *appEui = "****************";
-const char *appKey = "********************************";
+const char *appEui = "70B3D57ED001A156";
+const char *appKey = "818F7016ED4CA64E045D1EDC44FFEBE2";
 
 #define loraSerial Serial1
 #define debugSerial Serial
