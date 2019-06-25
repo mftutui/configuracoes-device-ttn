@@ -3,9 +3,6 @@
 //Biblioteca do sensor ultrassonico
 #include <Ultrasonic.h>
 
-//Biblioteca para o sensor de temperatura
-//#include <Thermistor.h>
-
 //Carrega a biblioteca LiquidCrystal
 #include <LiquidCrystal.h>
 
